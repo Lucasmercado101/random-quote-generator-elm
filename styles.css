@@ -1,0 +1,50 @@
+.quote-footer-more {
+  transition: 150ms background, 150ms box-shadow;
+  cursor: pointer;
+}
+
+.quote-footer-more * {
+  transition: 50ms color;
+}
+
+.quote-footer-more:hover {
+  background: #333333;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.quote-footer-more:hover .footer-title {
+  color: #f2f2f2;
+}
+
+.quote-footer-more:hover .footer-subtitle {
+  color: #828282;
+}
+
+.quote-footer-more .footer-more-arrow {
+  opacity: 0;
+  transition: 150ms opacity;
+}
+
+.quote-footer-more:hover .footer-more-arrow {
+  opacity: 1;
+}
+
+.navbar {
+  transition: 250ms box-shadow;
+  overflow: hidden;
+}
+
+.navbar-shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-author {
+  transition: transform 350ms, opacity 350ms;
+  transform: translateY(25%);
+  opacity: 0;
+}
+
+.navbar-author-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
